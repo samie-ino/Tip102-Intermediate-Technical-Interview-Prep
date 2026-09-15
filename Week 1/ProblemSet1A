@@ -1,0 +1,14 @@
+# Question 1: Write a function welcome() that prints the string,
+# Welcome to The Hundred Acre Wood!
+def welcome():
+    print("Welcome to The Hundred Acre Wood!")
+
+welcome()
+
+ #  Question 2:Write a function greeting() that accepts a single parameter, 
+ # a string name, and prints the string "Welcome to The Hundred Acre Wood <name>! 
+ # My name is Christopher Robin." 
+def greeting(name):
+    print(f"Welcome to The Hundred Acre Wood {name}! My name is Christopher Robin.")    
+
+greeting("Winnie the Pooh")
