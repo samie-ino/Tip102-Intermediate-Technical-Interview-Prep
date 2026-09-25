@@ -51,7 +51,7 @@ def total_sales(ticket_sales):
     return count
 
 """
-    Problem 3
+Problem 3
     UNDERSTAND:
     Input: dictionary mapping ticket types to tickets sold
     Output: integer representing the total tickets sold
@@ -66,9 +66,10 @@ def total_sales(ticket_sales):
     - add it to count only if it is positive
     - return count
 
-    IMPLEMENT:
-    """
+IMPLEMENT:
+"""
 
+def positive_sales(ticket_sales):
     count = 0
 
     for ticket_type in ticket_sales:
@@ -99,15 +100,18 @@ Problem 4
     - add matching artists and times to conflicts
     - return conflicts
 
-    IMPLEMENT:(below)
-    """
-     conflicts = {}
-    
-        for artist in venue1_schedule:
-            if (
-                artist in venue2_schedule
-                and venue1_schedule[artist] == venue2_schedule[artist]
-            ):
-                conflicts[artist] = venue1_schedule[artist]
-    
-        return conflicts
+IMPLEMENT: (below)
+"""
+
+
+def find_conflicts(venue1_schedule, venue2_schedule):
+    conflicts = {}
+
+    for artist in venue1_schedule:
+        if (
+            artist in venue2_schedule
+            and venue1_schedule[artist] == venue2_schedule[artist]
+        ):
+            conflicts[artist] = venue1_schedule[artist]
+
+    return conflicts
