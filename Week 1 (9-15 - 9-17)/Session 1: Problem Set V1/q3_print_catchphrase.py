@@ -19,6 +19,21 @@
 #
 # TTFN: Ta-ta for now!
 
+"""
+UNDERSTAND:
+Input: 1 catchphrase table string
+Output: 1 string catchphrase printed 
+
+Edge Cases:
+- if there is an unknown character
+
+PLAN:
+- create a function print_catchphrase that accepts the parameter character
+- seperate the character from the string 
+- return the string 
+
+IMPLEMENT: (below)
+"""
 
 def print_catchphrase(character):
     if character == "Pooh":

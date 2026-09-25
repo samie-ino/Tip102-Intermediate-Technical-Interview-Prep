@@ -14,6 +14,25 @@
 #
 # [2, 4, 6]
 
+"""
+UNDERSTAND:
+Input: 1 list of integers representing honey jar amounts
+Output: 1 new list where every value is doubled
+
+Edge Cases:
+- empty list should return an empty list
+- negative numbers should become more negative after doubling
+
+PLAN:
+- create a new empty list
+- loop through each number in hunny_jars
+- multiply each number by 2
+- append the doubled value to the new list
+- return the new list
+
+IMPLEMENT: (below)
+"""
+
 
 def doubled(hunny_jars):
     hunny_two = []

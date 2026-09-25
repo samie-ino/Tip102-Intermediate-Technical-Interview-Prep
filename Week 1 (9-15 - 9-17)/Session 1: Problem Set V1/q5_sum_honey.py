@@ -14,6 +14,25 @@
 #
 # 55
 
+"""
+UNDERSTAND:
+Input: 1 list of integers representing honey jars
+Output: 1 integer total sum of all jar values
+
+Edge Cases:
+- empty list should return 0
+- negative numbers should be included in the total
+
+PLAN:
+- start a total at 0
+- loop through every value in hunny_jars
+- add each value to the total
+- return the final total
+
+IMPLEMENT: (below)
+"""
+
+
 def sum_honey(hunny_jars):
     honey_sum = 0
     for i in hunny_jars:

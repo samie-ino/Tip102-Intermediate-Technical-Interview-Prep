@@ -15,6 +15,24 @@
 # roo
 
 
+"""
+UNDERSTAND:
+Input: 1 list of items and 1 integer index x
+Output: 1 value from the list at index x, or None if the index is invalid
+
+Edge Cases:
+- x is negative
+- x is greater than or equal to the length of items
+- items is empty
+
+PLAN:
+- check whether x is a valid index in items
+- if x is invalid, return None
+- otherwise return items[x]
+
+IMPLEMENT: (below)
+"""
+
 def get_item(items, x):
     if x < 0 or x >= len(items):
         return None
