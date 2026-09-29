@@ -17,6 +17,21 @@
 # False
 # ------------------------------------------------------------------------------
 
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def post_compare(draft1, draft2):
     pass
 

@@ -15,6 +15,23 @@
 # False
 # ------------------------------------------------------------------------------
 
+
+
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def is_symmetrical_title(title):
     pass
 

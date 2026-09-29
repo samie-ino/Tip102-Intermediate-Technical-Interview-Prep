@@ -14,6 +14,23 @@
 # ['Well written.', 'Interesting read.', 'First!']
 # ------------------------------------------------------------------------------
 
+
+
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def reverse_comments_queue(comments):
     pass
 

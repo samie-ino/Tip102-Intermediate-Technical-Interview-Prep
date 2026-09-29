@@ -21,6 +21,20 @@
 # False
 # ------------------------------------------------------------------------------
 
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
 def is_valid_post_format(posts):
     pass
 

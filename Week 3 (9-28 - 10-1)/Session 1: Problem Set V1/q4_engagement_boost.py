@@ -22,6 +22,22 @@
 # [4, 9, 9, 49, 121]
 # ------------------------------------------------------------------------------
 
+
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def engagement_boost(engagements):
     squared_engagements = []
     for i in range(len(engagements)):

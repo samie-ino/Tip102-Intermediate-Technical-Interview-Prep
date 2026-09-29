@@ -24,6 +24,21 @@
 # s
 # ------------------------------------------------------------------------------
 
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def clean_post(post):
     pass
 

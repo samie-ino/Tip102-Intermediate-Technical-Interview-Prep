@@ -14,6 +14,21 @@
 # kcehC tuo ym tsetal golv
 # ------------------------------------------------------------------------------
 
+'''
+Understand -
+Input:
+Output:
+Edge Cases:
+
+Plan - 
+
+
+Implement -
+(look below)
+
+
+'''
+
 def edit_post(post):
     pass
 
