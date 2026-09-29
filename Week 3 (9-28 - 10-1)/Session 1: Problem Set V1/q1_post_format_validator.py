@@ -22,21 +22,41 @@
 # ------------------------------------------------------------------------------
 
 '''
-Understand -
-Input:
-Output:
-Edge Cases:
+UNDERSTAND:
+- Input: considered valid if a complete () [] {}
+- Output: True if correct, False if not correct
+- Edge Cases: if there was an invalid input to cause an output that isnt True / False
 
-Plan - 
+PLAN: 
+- First, we want to intitalize the stack 
+- Second, Matching Tags () [] {}
+- Third, create a set and use an if statement to append only the valid cases,
+return True
+- Fourth, if not valid we can return False
 
 
-Implement -
+IMPLEMENT:
 (look below)
 
 
 '''
 def is_valid_post_format(posts):
-    pass
+    stack = []
+    matchingTags = {
+        '(': ')',
+        '[': ']',
+        '{': '}'
+    }
+
+    for tags in posts:
+        if tags in matchingTags:
+            stack.append(tags)
+        elif tags in matchingTags.values():
+            if not stack or matchingTags[stack[-1]] != tags:
+                return False
+            stack.pop()
+
+    return not stack
 
 
 if __name__ == "__main__":
