@@ -18,15 +18,15 @@
 # ------------------------------------------------------------------------------
 
 '''
-Understand -
-Input:
-Output:
-Edge Cases:
+UNDERSTAND:
+- Input:
+- Output:
+- Edge Cases:
 
-Plan - 
+PLAN: 
 
 
-Implement -
+IMPLEMENT:
 (look below)
 
 
