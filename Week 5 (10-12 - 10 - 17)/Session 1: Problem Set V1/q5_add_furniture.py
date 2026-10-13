@@ -45,9 +45,3 @@ class Villager:
 
     def add_item(self, item_name):
         pass
-
-
-if __name__ == "__main__":
-    alice = Villager("Alice", "Koala", "guvnor")
-    alice.add_item("acoustic guitar")
-    print(alice.furniture)

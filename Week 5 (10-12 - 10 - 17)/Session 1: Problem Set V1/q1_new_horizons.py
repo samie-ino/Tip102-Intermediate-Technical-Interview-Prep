@@ -10,15 +10,17 @@ The Villager object created should have the name "Apollo", the species
 UPI Plan 
 
 UNDERSTAND:
-Input - 
-OUtput - 
-Edge Cases -
+Input - name of character, species of character and catchpharse 
+OUtput - name of character, species of character, catchpharse, furniture
+Edge Cases - N/A
 
 PLAN:
+- create an instantiation of the instance of the class and add set parameters in it
 
 
 IMPLEMENT: 
 - (implemented below)
+
 '''
 
 
@@ -28,13 +30,3 @@ class Villager:
         self.species = species
         self.catchphrase = catchphrase
         self.furniture = []
-
-
-apollo = Villager("Apollo", "Eagle", "pah")
-
-
-if __name__ == "__main__":
-    print(apollo.name)
-    print(apollo.species)
-    print(apollo.catchphrase)
-    print(apollo.furniture)

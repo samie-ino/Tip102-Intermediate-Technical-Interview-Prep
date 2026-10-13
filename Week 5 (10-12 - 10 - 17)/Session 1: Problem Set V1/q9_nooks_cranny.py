@@ -35,13 +35,4 @@ class Node:
         self.next = next
 
 
-tom_nook = Node("Tom Nook")
-tommy = Node("Tommy")
 tom_nook.next = tommy
-
-
-if __name__ == "__main__":
-    print(tom_nook.value)
-    print(tom_nook.next.value)
-    print(tommy.value)
-    print(tommy.next)

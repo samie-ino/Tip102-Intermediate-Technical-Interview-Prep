@@ -29,12 +29,3 @@ class Node:
 
 def print_list(head):
     pass
-
-
-if __name__ == "__main__":
-    isabelle = Node("Isabelle")
-    saharah = Node("Saharah")
-    cj = Node("C.J.")
-    isabelle.next = saharah
-    saharah.next = cj
-    print(print_list(isabelle))

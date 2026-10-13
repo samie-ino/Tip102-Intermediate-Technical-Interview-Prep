@@ -33,13 +33,3 @@ class Villager:
 
 def message_received(start_villager, target_villager):
     pass
-
-
-if __name__ == "__main__":
-    isabelle = Villager("Isabelle", "Dog", "Normal", "what's up?")
-    tom_nook = Villager("Tom Nook", "Raccoon", "Cranky", "yes, yes")
-    kk_slider = Villager("K.K. Slider", "Dog", "Lazy", "dig it")
-    isabelle.neighbor = tom_nook
-    tom_nook.neighbor = kk_slider
-    print(message_received(isabelle, kk_slider))
-    print(message_received(kk_slider, isabelle))

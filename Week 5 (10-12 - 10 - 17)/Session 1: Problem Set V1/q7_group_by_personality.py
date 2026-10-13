@@ -32,10 +32,3 @@ class Villager:
 
 def of_personality_type(townies, personality_type):
     pass
-
-
-if __name__ == "__main__":
-    isabelle = Villager("Isabelle", "Dog", "Normal", "what's up?")
-    bob = Villager("Bob", "Cat", "Lazy", "pthhhpth")
-    stitches = Villager("Stitches", "Cub", "Lazy", "stuffin'")
-    print(of_personality_type([isabelle, bob, stitches], "Lazy"))

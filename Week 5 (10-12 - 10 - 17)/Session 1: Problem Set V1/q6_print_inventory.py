@@ -32,10 +32,3 @@ class Villager:
 
     def print_inventory(self):
         pass
-
-
-if __name__ == "__main__":
-    alice = Villager("Alice", "Koala", "guvnor")
-    alice.print_inventory()
-    alice.furniture = ["acoustic guitar", "ironwood kitchenette", "kotatsu", "kotatsu"]
-    alice.print_inventory()

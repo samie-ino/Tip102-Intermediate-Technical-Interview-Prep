@@ -37,11 +37,3 @@ class Villager:
 
     def set_catchphrase(self, new_catchphrase):
         pass
-
-
-if __name__ == "__main__":
-    alice = Villager("Alice", "Koala", "guvnor")
-    alice.set_catchphrase("sweet dreams")
-    print(alice.catchphrase)
-    alice.set_catchphrase("#?!")
-    print(alice.catchphrase)

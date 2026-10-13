@@ -2,7 +2,7 @@
 Step 1: Using the Villager class from Problem 1, add the following greet_player() method to your existing code:
 
 def greet_player(self, player_name):
-    return f"{self.name}: Hey there, {player_name}! How's it going, {self.catchphrase}!"
+    pass
 Step 2: Create a second instance of Villager in a variable named bones.
 
 The Villager object created should have name "Bones", species "Dog", and catchphrase "yip yip".
@@ -37,10 +37,3 @@ class Villager:
 
     def greet_player(self, player_name):
         pass
-
-
-bones = Villager("Bones", "Dog", "yip yip")
-
-
-if __name__ == "__main__":
-    print(bones.greet_player("Samia"))
