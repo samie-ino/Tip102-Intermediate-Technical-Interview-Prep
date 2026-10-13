@@ -1,5 +1,10 @@
-# Problem 3: Update Catchphrase
-# Update bones' catchphrase and greet the player.
+'''
+In Animal Crossing, as players become friends with villagers, the villagers might ask the player to suggest a new catchphrase.
+
+Adding on to your existing code, update bones so that his catchphrase is "ruff it up" instead of its current value, "yip yip".
+
+
+'''
 
 
 class Villager:

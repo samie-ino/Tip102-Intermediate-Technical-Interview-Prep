@@ -1,5 +1,17 @@
-# Problem 5: Add Furniture
-# Implement add_item() to add only valid furniture to the inventory.
+'''
+layers and villagers in Animal Crossing can add furniture to their inventory to decorate their house.
+
+Update the Villager class with a new method add_item() that takes in one parameter, item_name.
+
+The method should validate the item_name.
+
+If the item is valid, add item_name to the player’s furniture attribute.
+The method does not need to return any values.
+item_name is valid if it has one of the following values: "acoustic guitar", "ironwood kitchenette", 
+"rattan armchair", "kotatsu", or "cacao tree".
+
+
+'''
 
 
 class Villager:

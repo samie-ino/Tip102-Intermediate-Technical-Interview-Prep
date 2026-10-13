@@ -1,6 +1,12 @@
-# Problem 8: Telephone
-# Return whether the target can be reached through neighbor links.
+'''
+The Villager constructor has been updated to include an additional attribute neighbor. 
+A villager's neighbor is another Villager instance and represents their closest neighbor. 
+By default, a Villager's neighbor is set to None.
 
+Given two Villager instances start_villager and target_villager, write a function message_received() 
+that returns True if you can pass a message from the start_villager to the target_villager through a 
+series of neighbors and False otherwise.
+'''
 
 class Villager:
     def __init__(self, name, species, personality, catchphrase, neighbor=None):

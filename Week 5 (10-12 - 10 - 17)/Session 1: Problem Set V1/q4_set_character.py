@@ -1,5 +1,16 @@
-# Problem 4: Set Character
-# Implement set_catchphrase() with the validation rules in the prompt.
+'''
+In the previous exercise, we accessed and modified a player’s catchphrase attribute directly. 
+Instead of allowing users to update their player directly, it is common to create setter methods that users can call to 
+update class attributes. This has a few different benefits, including allowing us to validate data before updating our class instance.
+
+Update your Villager class with a method set_catchphrase() that takes in one parameter new_catchphrase.
+
+If new_catchphrase is valid, it should update the villager's catchphrase attribute to have value new_catchphrase 
+and print "Catchphrase updated".
+Otherwise, it should print out "Invalid catchphrase".
+Valid catchphrases are less than 20 characters in length. They must all contain only alphabetic and whitespace characters.
+
+'''
 
 
 class Villager:

@@ -1,5 +1,11 @@
-# Problem 10: Timmy and Tommy
-# Place Timmy between Tom Nook and Tommy in the linked list.
+'''
+In a linked list, pointers can be redirected to any place in the list.
+
+Using the linked list from Problem 9, create a new Node timmy with value 
+"Timmy" and place it between tom_nook and tommy so the new linked list is 
+tom_nook -> timmy -> tommy.
+
+'''
 
 
 class Node:

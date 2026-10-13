@@ -1,5 +1,11 @@
-# Problem 1: New Horizons
-# Create a Villager instance named apollo with the values shown below.
+'''
+Step 1: Copy the following code into your IDE.
+
+Step 2: Instantiate an instance of the class Villager, which represents characters in Animal Crossing. Store the instance in a variable named apollo.
+
+The Villager object created should have the name "Apollo", the species "Eagle", and the catchphrase "pah".
+
+'''
 
 
 class Villager:

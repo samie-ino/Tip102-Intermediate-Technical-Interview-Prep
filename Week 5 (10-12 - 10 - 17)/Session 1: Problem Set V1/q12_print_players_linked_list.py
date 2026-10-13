@@ -1,5 +1,10 @@
-# Problem 12: Print Players Linked List
-# Return the node values joined with " -> ".
+'''
+Write a function print_list() that takes in the head of a linked list and returns a string 
+linking together the values of the list with the separator "->".
+
+Note: The "head" of a linked list is the first element in the linked list. 
+Equivalent to lst[0] of a normal list.
+'''
 
 
 class Node:

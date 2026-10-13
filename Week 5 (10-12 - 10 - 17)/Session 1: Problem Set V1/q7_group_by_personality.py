@@ -1,5 +1,11 @@
-# Problem 7: Group by Personality
-# Return the names of villagers with the requested personality.
+'''
+The Villager class has been updated below to include the new string attribute personality 
+representing the character's personality type.
+
+Outside of the Villager class, write a function of_personality_type(). Given a list of Villager instances townies 
+and a string personality_type as parameters, return a list containing the names of all villagers in townies with 
+personality personality_type. Return the names in any order.
+'''
 
 
 class Villager:
