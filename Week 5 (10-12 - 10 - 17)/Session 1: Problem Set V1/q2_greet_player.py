@@ -9,6 +9,23 @@ The Villager object created should have name "Bones", species "Dog", and catchph
 Step 3: Call the method greet_player() with your name and print out "Bones: Hey there, <your name>! 
 How's it going, yip yip!". For example, if your name is Tram, "Bones: Hey there, Tram! How's it going, yip yip?" 
 would be printed out to the console.
+
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
+
+
+
 '''
 
 class Villager:

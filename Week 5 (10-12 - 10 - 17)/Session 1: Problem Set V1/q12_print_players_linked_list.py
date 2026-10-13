@@ -4,6 +4,20 @@ linking together the values of the list with the separator "->".
 
 Note: The "head" of a linked list is the first element in the linked list. 
 Equivalent to lst[0] of a normal list.
+
+
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
 '''
 
 

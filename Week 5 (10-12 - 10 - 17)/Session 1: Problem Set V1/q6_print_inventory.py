@@ -7,6 +7,19 @@ The name and quantity should be in the format "item1: quantity, item2: quantity,
 for however many unique items exist in the villager's furniture list
 If the player has no items, the function should print "Inventory empty".
 
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
 
 '''
 

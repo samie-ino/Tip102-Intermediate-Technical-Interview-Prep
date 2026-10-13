@@ -12,6 +12,20 @@ the next node in the list.
 Using the provided Node class below, create a linked list Tom Nook -> Tommy where the instance tom_nook has value "Tom Nook" 
 which points to the instance tommy that has value "Tommy".
 
+
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
 '''
 
 

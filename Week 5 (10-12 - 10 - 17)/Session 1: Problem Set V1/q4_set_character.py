@@ -10,6 +10,21 @@ and print "Catchphrase updated".
 Otherwise, it should print out "Invalid catchphrase".
 Valid catchphrases are less than 20 characters in length. They must all contain only alphabetic and whitespace characters.
 
+
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
+
 '''
 
 

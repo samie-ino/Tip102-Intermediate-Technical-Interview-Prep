@@ -10,6 +10,20 @@ The method does not need to return any values.
 item_name is valid if it has one of the following values: "acoustic guitar", "ironwood kitchenette", 
 "rattan armchair", "kotatsu", or "cacao tree".
 
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
+
 
 '''
 

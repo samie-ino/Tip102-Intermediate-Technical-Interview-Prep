@@ -4,6 +4,19 @@ In Animal Crossing, as players become friends with villagers, the villagers migh
 Adding on to your existing code, update bones so that his catchphrase is "ruff it up" instead of its current value, "yip yip".
 
 
+UPI Plan 
+
+UNDERSTAND:
+Input - 
+OUtput - 
+Edge Cases -
+
+PLAN:
+
+
+IMPLEMENT: 
+- (implemented below)
+
 '''
 
 
