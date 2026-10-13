@@ -24,8 +24,6 @@ IMPLEMENT:
 - (implemented below)
 
 
-
-
 '''
 
 class Villager:
