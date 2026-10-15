@@ -1,6 +1,23 @@
-# Problem 5: Remove Last
-# Write a function delete_tail() that accepts the head of a linked list and removes the last node.
-# Return the head of the modified list.
+'''
+Problem 5: Remove Last
+Write a function delete_tail() that accepts the head of a linked list and removes the last node.
+Return the head of the modified list.
+
+UPI Plan
+
+UNDERSTAND:
+Input - 
+Output -
+Edge Cases - 
+
+PLAN:
+
+IMPLEMENT:
+- Code Below!
+
+
+
+'''
 
 
 class Node:
