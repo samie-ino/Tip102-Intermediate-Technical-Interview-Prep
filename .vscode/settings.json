@@ -11,5 +11,6 @@
     "editor.codeLens": false,
     "editor.lightbulb.enabled": "off",
     "editor.renderValidationDecorations": "off",
+    "explorer.compactFolders": false,
     "github.copilot.editor.enableAutoCompletions": false
 }
