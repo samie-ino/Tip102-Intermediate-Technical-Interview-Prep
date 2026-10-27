@@ -26,9 +26,9 @@
 # UPI Plan
 #
 # UNDERSTAND:
-# Input -
-# Output -
-# Edge Cases -
+# Input - A list of strings 
+# Output - The total number from the list of strings 
+# Edge Cases - If the list is empty
 #
 # PLAN:
 #
@@ -37,8 +37,19 @@
 #
 
 def count_suits_iterative(suits):
-    pass
-
+    i=0
+    for suit in suits:
+        i=i+1
+    return i
+#O(n)  Space Complexity: O(1)
 
 def count_suits_recursive(suits):
-    pass
+    if not suits:
+        return 0
+    else:
+        return 1+count_suits_recursive(suits[1:])
+
+#O(n)  Space Complexity: O(1)
+
+print(count_suits_iterative(["Mark I", "Mark II", "Mark III"]))
+print(count_suits_recursive(["Mark I", "Mark II", "Mark III"]))
