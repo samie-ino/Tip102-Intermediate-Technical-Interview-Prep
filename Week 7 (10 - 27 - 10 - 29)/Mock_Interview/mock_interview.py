@@ -9,14 +9,13 @@
 # 3. Go through the ransomnote and subtract one for each letter needed
 # 4. if any count becames negative, return false because that wouldnt fit enough letters
 # 5. otherwise, return true 
-# 6. 
 # 
 # Implement:
 # (below)
 # 
 
 
-def canConstruct(self,  ransomNote: str, magazine: str) -> bool:
+def canConstruct(ransomNote: str, magazine: str) -> bool:
     if len(ransomNote) > len(magazine):
         return False
     count = {}
