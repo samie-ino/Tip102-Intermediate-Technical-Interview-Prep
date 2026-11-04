@@ -22,6 +22,26 @@ class TreeNode:
         self.left = left
         self.right = right
 
-
 def calculate_yield(root):
-    pass
+    operator = root.val
+    left = root.left.val
+    right = root.right.val
+    
+    if operator == "+":
+        return left + right
+    
+    elif operator == "-":
+        return left - right
+    
+    elif operator == "*":
+        return left * right
+    
+    elif operator == "/":
+        return left / right
+    
+    raise ValueError("unsupported operator")
+    
+    
+apple_tree = TreeNode("-", TreeNode(7), TreeNode(5))
+
+print(calculate_yield(apple_tree))
