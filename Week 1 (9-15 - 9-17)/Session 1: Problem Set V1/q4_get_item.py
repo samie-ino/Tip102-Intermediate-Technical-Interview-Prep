@@ -37,3 +37,9 @@ def get_item(items, x):
     if x < 0 or x >= len(items):
         return None
     return items[x]
+    
+items = ["piglet", "pooh", "roo", "rabbit"]
+print(get_item(items, 2))  # roo
+
+items = ["piglet", "pooh", "roo", "rabbit"]
+print(get_item(items, 5)) # None
