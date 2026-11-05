@@ -23,11 +23,28 @@
 # 3
 # 0
 
+'''
+Understand:
+- Input: Accept a list of integers race_times
+- Output: Return an integer lessthan the threshold value
+
+Plan:
+1. create an empty list to accpet integers
+2. if its less than the threshold return the racetime number
+3. if the list is empty return 0
+
+'''
 
 def count_less_than(race_times, threshold):
-    pass
+    race_times = []
+    for num in race_times:
+        if num < threshold:
+            return num 
+        else:
+            return 0
 
+race_times = [1, 2, 3, 4, 5, 6]
+print(count_less_than(race_times, 4))
 
-if __name__ == "__main__":
-    print(count_less_than([1, 2, 3, 4, 5, 6], 4))
-    print(count_less_than([], 4))
+race_times = []
+print(count_less_than(race_times, 4))
