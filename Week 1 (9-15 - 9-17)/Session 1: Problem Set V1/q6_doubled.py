@@ -39,3 +39,6 @@ def doubled(hunny_jars):
     for num in hunny_jars:
         hunny_two.append(num * 2)
     return hunny_two
+
+hunny_jars = [1, 2, 3]
+print(doubled(hunny_jars))
